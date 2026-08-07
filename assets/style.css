@@ -368,4 +368,17 @@ img {
 	max-width: 100%;
 	height: auto;
 }
+.skip-link {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1100;
+	padding: 1em 1.5em;
+	background-color: #fff;
+	color: #000;
+	transform: translateY(-100%);
+}
 
+.skip-link:focus {
+	transform: translateY(0);
+}
