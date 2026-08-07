@@ -193,7 +193,7 @@ body {
 	background-color: white;
 	max-width: 390px;
 	width: 30%;
-	height: 337px;
+	min-height: 337px;
 	padding: 1em;
 	display: flex;
 	flex-direction: column;
@@ -381,4 +381,10 @@ img {
 
 .skip-link:focus {
 	transform: translateY(0);
+}
+.section-intro {
+	width: 70%;
+	margin: 0 auto 2em;
+	text-align: center;
+	font-size: 14px;
 }
